@@ -1,0 +1,44 @@
+.nav-bar {
+    display: flex;
+    min-height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: rgb(105, 100, 100);
+    font-weight: lighter;
+
+}
+
+.btn {
+
+    button {
+        background: transparent;
+        border: 2px solid rgb(65,65,65);
+        cursor: pointer;
+        padding: 0.5rem;
+        transition: all 0.3s ease;
+        &:hover {
+            background: rgb(65,65,65);
+            color: white;
+        }
+    }
+}
+
+.btn {
+    position: relative;
+    z-index: 2;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        button {
+            z-index: 10;
+        }
+    }
+    
+}
