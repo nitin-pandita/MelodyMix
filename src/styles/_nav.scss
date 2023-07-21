@@ -32,7 +32,45 @@
     position: relative;
     z-index: 2;
 }
+.searchBar{
+    position: relative;
+    input{
+        padding: 0.5rem;
+        border: 2px solid rgb(65, 65, 65);
+        width: 250px;
+        transition: all 0.3s ease;
+    }
+}
+.results{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: fit-content;
+    max-height: 240px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: white;
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
 
+    }
+    li{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 0.5rem;
+        gap: 0.5rem;
+        transition: all .3s ease;
+        &:hover{
+            background: rgb(225, 225, 225);
+            cursor: pointer;
+        }
+    }
+}
 
 @media screen and (max-width: 768px) {
     nav {
