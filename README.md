@@ -1,3 +1,8 @@
+# MelodyMix
+![image](https://github.com/nitin-pandita/MelodyMix/assets/91310284/773ef431-455c-42c7-b235-4fc6543e97bd)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
