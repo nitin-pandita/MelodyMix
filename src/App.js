@@ -53,6 +53,7 @@ function App() {
         libraryStatus={libraryStatus}
         setLibraryStatus={setLibraryStatus}
         currentSong={currentSong}
+        setCurrentSong={setCurrentSong}
       />
       <Songs currentSong={currentSong} />
       <Player
